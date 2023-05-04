@@ -1,0 +1,17 @@
+
+<header class="page-header">
+    <h1>Admin &raquo; New Category</h1>
+</header>
+
+<div class="well">
+    <%= link_to "All categories", [:admin, :categories], class: "btn btn-info mb-3" %>
+</div>
+
+<% # Render form onto page %>
+<%= form_for [:admin, @category] do |form| %>
+    <div class="mb-3">
+        <%= form.label :name, class: "form-label" %>       
+        <%= form.text_field :name, class: "form-control" %>
+        <%= form.submit class: "btn btn-primary mt-3" %>
+    </div>
+<% end %>

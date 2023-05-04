@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root to: "products#index"
 
   get "/about", to: "about#index"
-  get "/login" => "sessions#new"
+  get "/login" => "users#index"
   post "/login" => "sessions#create"
   get "/logout" => "sessions#destroy"
   get "/signup" => "users#new"

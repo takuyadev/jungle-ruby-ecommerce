@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
   namespace :admin do
     root to: "dashboard#show"
-    post :login
+    resources :categories, only: [:index, :create, :new]
     resources :products, except: [:edit, :update, :show]
   end
 

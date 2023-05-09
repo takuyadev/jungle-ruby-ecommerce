@@ -13,7 +13,7 @@ RSpec.describe User, type: :model do
     end
 
     it "email has inconsistent casing" do
-      @user = User.create(first_name: "John", last_name: "Doe", email: "test@test.com", password: "Password")
+      @user = User.create(first_name: "John", last_name: "Doe", email: "test@test.com", password: "Password")How popular is ruby
       expect(@user.authenticate_with_credentials?("Test@tEST.com", "Password")).not_to eql(nil)
     end
   end

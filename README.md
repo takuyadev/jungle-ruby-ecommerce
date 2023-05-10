@@ -1,6 +1,9 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1, educational project to learn how to quickly adapt to be able to fix bugs and add new features, while working on a pre-existing project, new framework and language.
+
+![Screenshot](https://github.com/takuyadev/jungle-ruby-ecommerce/blob/master/docs/1.png?raw=true)
+![Screenshot](https://github.com/takuyadev/jungle-ruby-ecommerce/blob/master/docs/2.png?raw=true)
 
 ## Setup
 
